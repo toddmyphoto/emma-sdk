@@ -1,15 +1,12 @@
 {
-  "name": "emma-sdk",
-  "version": "0.0.3",
+  "name": "emma-sdk2",
+  "version": "0.0.1",
   "description": "A Node.js client for the Emma API",
   "main": "./lib/emma",
-  "author": {
-    "name": "Nathan Peck",
-    "email": "nathan@storydesk.com"
-  },
+  "author": "Todd Albert <todd@myphoto.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nathanpeck/emma-sdk.git"
+    "url": "git://github.com/toddmyphoto/emma-sdk.git"
   },
   "dependencies": {
     "request": "2.44.0"
@@ -29,5 +26,12 @@
     "client",
     "sdk"
   ],
-  "readmeFilename": "README.md"
+  "bugs": {
+    "url": "https://github.com/toddmyphoto/emma-sdk/issues"
+  },
+  "homepage": "https://github.com/toddmyphoto/emma-sdk#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  }
 }
